@@ -430,7 +430,7 @@ This confirmed that the RTL simulation was correct.
 ![rtl](HKSPI/.Screenshots/rtl.png)
 
 ---
-## Waveform of HKSPI
+## Waveform of HKSPI-RTL Simulation
 
 ![rtl](HKSPI/.Screenshots/rtl_waveform.png)
 
@@ -470,7 +470,7 @@ iverilog -Ttyp \
     - Functional pad models
 - The testbench is the same.
 
-### RTL Output
+### GLS Output
 After all debugging, my RTL output finally showed:
 ```
 Read register 0 = 0x00
@@ -489,7 +489,11 @@ This confirmed that the RTL simulation was correct.
 ![gll](HKSPI/.Screenshots/gls_2.png)
 
 ---
+## Waveform of HKSPI-GLS Simulation
 
+![rtl](HKSPI/.Screenshots/gls_waveform.png)
+
+---
 ## 🚧 Challenges I Faced (and How I Solved Them)
 
 **❌ 1. Missing RTL folder**
