@@ -1,70 +1,28 @@
 # Day -1 : Caravel SoC HKSPI Verification
 
-<div align="center" style="display:flex; gap:20px; justify-content:center; margin-top:20px; flex-wrap: nowrap;">
+<div align="center">
 
   <!-- VSD Badge -->
-  <span style="
-      padding:12px 22px;
-      border-radius:20px;
-      background: linear-gradient(135deg, #ff7f50, #ff6347);
-      color:#fff;
-      font-size:18px;
-      font-weight:bold;
-      box-shadow:0 5px 15px rgba(255,99,71,0.6);
-      text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
-      transition: transform 0.2s;
-      cursor: default;
-  " onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
-      🔥 VSD
-  </span>
+  <a href="#" target="_blank" style="text-decoration:none;">
+    <img src="https://img.shields.io/badge/VSD-Fire-orange?style=for-the-badge&logoColor=white" alt="VSD Badge">
+  </a>
 
   <!-- IIT Gandhinagar Badge -->
-  <span style="
-      padding:12px 22px;
-      border-radius:20px;
-      background: linear-gradient(135deg, #3498db, #2980b9);
-      color:#fff;
-      font-size:18px;
-      font-weight:bold;
-      box-shadow:0 5px 15px rgba(52,152,219,0.6);
-      transition: transform 0.2s;
-      cursor: default;
-  " onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
-      🏛️ IIT Gandhinagar
-  </span>
+  <a href="#" target="_blank" style="text-decoration:none;">
+    <img src="https://img.shields.io/badge/IIT%20Gandhinagar-🏛️-blue?style=for-the-badge&logoColor=white" alt="IIT Gandhinagar Badge">
+  </a>
 
   <!-- RTL & GLS Badge -->
-  <span style="
-      padding:12px 22px;
-      border-radius:20px;
-      background: linear-gradient(135deg, #9b59b6, #8e44ad);
-      color:#fff;
-      font-size:18px;
-      font-weight:bold;
-      box-shadow:0 5px 15px rgba(155,89,182,0.6);
-      transition: transform 0.2s;
-      cursor: default;
-  " onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
-      🧪 RTL & GLS
-  </span>
+  <a href="#" target="_blank" style="text-decoration:none;">
+    <img src="https://img.shields.io/badge/RTL%20%26%20GLS-Verification-purple?style=for-the-badge&logoColor=white" alt="RTL & GLS Badge">
+  </a>
 
   <!-- Day 1 Badge -->
-  <span style="
-      padding:12px 22px;
-      border-radius:20px;
-      background: linear-gradient(135deg, #2ecc71, #27ae60);
-      color:#fff;
-      font-size:18px;
-      font-weight:bold;
-      box-shadow:0 5px 15px rgba(46,204,113,0.6);
-      transition: transform 0.2s;
-      cursor: default;
-  " onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
-      📅 Day 1
-  </span>
+  <a href="#" target="_blank" style="text-decoration:none;">
+    <img src="https://img.shields.io/badge/Day%201-📅-green?style=for-the-badge&logoColor=white" alt="Day 1 Badge">
+  </a>
 
 </div>
-
 
 ---
 - This document explains how I set up, debugged, and successfully ran RTL and Gate-Level Simulations (GLS) for the HK-SPI test inside the Caravel SoC.
