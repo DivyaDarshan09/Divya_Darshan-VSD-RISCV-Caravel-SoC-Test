@@ -376,7 +376,8 @@ echo 'module sky130_ef_sc_hd__fill_4(inout VPWR, inout VGND, inout VPB, inout VN
 
 - After fixing all paths, run `make SIM=RTL`.
 
-- Run
+- OR
+
 ```bash
 # Navigate to the hkspi test directory
 cd $CARAVEL_ROOT/verilog/dv/caravel/mgmt_soc/hkspi
