@@ -1,25 +1,5 @@
 # 🧨 Day -1 : Caravel SoC HKSPI Verification
 
-<div align="center" style="margin-top:20px;">
-  <span style="
-      display:inline-block;
-      padding:14px 28px;
-      border-radius:25px;
-      background: linear-gradient(135deg, #ff6b35, #ff3e2d);
-      color:#fff;
-      font-size:20px;
-      font-weight:bold;
-      font-family:sans-serif;
-      box-shadow:0 6px 18px rgba(255,62,45,0.6);
-      text-align:center;
-      transition: transform 0.2s;
-      cursor: default;
-  " onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-      🧩 Chip RISC-V
-  </span>
-</div>
-
-
 <div align="center">
 
   <!-- VSD Badge -->
@@ -45,6 +25,7 @@
 </div>
 
 
+
 - This document explains how I set up, debugged, and successfully ran RTL and Gate-Level Simulations (GLS) for the HK-SPI test inside the Caravel SoC.
 - All the steps, errors, fixes, and configuration changes mentioned here reflect what I actually encountered and solved during the project.
 - This documents everything step by step, because this setup is notoriously tricky, and the official documentation does not clearly explain the complete flow.
@@ -65,14 +46,14 @@
 
 **Caravel Architecture**
 
-![caravel](.Screenshots/caravel_arch.png)
+![caravel](HKSPI/.Screenshots/caravel_arch.png)
 
 
 - The management area is a RISC-V-based SoC that provides peripherals like timers, UART, GPIO, SRAM, and firmware to configure user project I/O, monitor signals via on-chip logic analyzers, and control power. The user project area is the dedicated space for user designs, offering 38 I/O ports, 128 logic analyzer probes, and a Wishbone connection to the management SoC. Users can implement digital or analog projects by following the respective wrappers and adhering to design rules, with digital projects using the user_project_wrapper and analog projects using the user_analog_project_wrapper. Caravel provides sample projects and guidelines for integrating user designs with the SoC infrastructure.
 ---
 ### Caravel Overview
 
-![caravel](.Screenshots/caravel_overview.png)
+![caravel](HKSPI/.Screenshots/caravel_overview.png)
 
 ## Environment Setup
 
@@ -235,7 +216,7 @@ git clone https://github.com/efabless/caravel_mgmt_soc_litex verilog/rtl/mgmt_co
 
 **Iverilog Confirmation screenshot**
 
-![iverilog](.Screenshots/iverilog.png)
+![iverilog](HKSPI/.Screenshots/iverilog.png)
 
 ---
 ## Understand Caravel’s hkspi Test
@@ -441,16 +422,16 @@ This confirmed that the RTL simulation was correct.
 
 **Terminal Screenshot**
 
-![rtl](.Screenshots/rtl1.png)
+![rtl](HKSPI/.Screenshots/rtl1.png)
 
 
 
-![rtl](.Screenshots/rtl.png)
+![rtl](HKSPI/.Screenshots/rtl.png)
 
 ---
 ## Waveform of HKSPI
 
-![rtl](.Screenshots/rtl_waveform.png)
+![rtl](HKSPI/.Screenshots/rtl_waveform.png)
 
 ---
 ## Gate-Level Simulation (GLS)
@@ -501,10 +482,10 @@ This confirmed that the RTL simulation was correct.
 
 **Terminal Screenshot**
 
-![gl](.Screenshots/gls_1.png)
+![gl](HKSPI/.Screenshots/gls_1.png)
 
 
-![gll](.Screenshots/gls_2.png)
+![gll](HKSPI/.Screenshots/gls_2.png)
 
 ---
 
