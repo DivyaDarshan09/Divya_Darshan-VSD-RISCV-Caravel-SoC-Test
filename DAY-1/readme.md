@@ -1,25 +1,25 @@
 # Day -1 : Caravel SoC HKSPI Verification
-
+---
 <div align="center">
 
   <!-- VSD Badge -->
   <a href="#" target="_blank" style="text-decoration:none;">
-    <img src="https://img.shields.io/badge/VSD-Fire-orange?style=for-the-badge&logoColor=white" alt="VSD Badge">
+    <img src="https://img.shields.io/badge/VSD-Training%20Program-ff6b6b?style=for-the-badge&logoColor=white" alt="VSD Badge">
   </a>
 
   <!-- IIT Gandhinagar Badge -->
   <a href="#" target="_blank" style="text-decoration:none;">
-    <img src="https://img.shields.io/badge/IIT%20Gandhinagar-🏛️-blue?style=for-the-badge&logoColor=white" alt="IIT Gandhinagar Badge">
+    <img src="https://img.shields.io/badge/IIT%20Gandhinagar-Institute%20of%20Excellence-1e90ff?style=for-the-badge&logoColor=white" alt="IIT Gandhinagar Badge">
   </a>
 
   <!-- RTL & GLS Badge -->
   <a href="#" target="_blank" style="text-decoration:none;">
-    <img src="https://img.shields.io/badge/RTL%20%26%20GLS-Verification-purple?style=for-the-badge&logoColor=white" alt="RTL & GLS Badge">
+    <img src="https://img.shields.io/badge/RTL%20%26%20GLS-Simulation-9b59b6?style=for-the-badge&logoColor=white" alt="RTL & GLS Badge">
   </a>
 
   <!-- Day 1 Badge -->
   <a href="#" target="_blank" style="text-decoration:none;">
-    <img src="https://img.shields.io/badge/Day%201-📅-green?style=for-the-badge&logoColor=white" alt="Day 1 Badge">
+    <img src="https://img.shields.io/badge/Day%201-Introduction-2ecc71?style=for-the-badge&logoColor=white" alt="Day 1 Badge">
   </a>
 
 </div>
