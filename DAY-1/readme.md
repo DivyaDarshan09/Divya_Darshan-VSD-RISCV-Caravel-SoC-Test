@@ -1,70 +1,63 @@
 # Day -1 : Caravel SoC HKSPI Verification
 
-<div align="center" style="display:flex; flex-wrap:wrap; gap:12px; justify-content:center;">
+<div align="center" style="display:flex; gap:15px; flex-wrap:wrap; justify-content:center; margin-top:20px;">
 
-  <!-- Caravel Badge -->
-  <a href="https://caravel-harness.readthedocs.io/" target="_blank" style="
-      text-decoration:none;
-      display:inline-block;
-      padding:10px 20px;
-      border-radius:12px;
-      background: linear-gradient(90deg, #FF7F50, #FF6347);
-      color:white;
+  <!-- VSD Badge -->
+  <span style="
+      padding:12px 22px;
+      border-radius:20px;
+      background: linear-gradient(135deg, #ff7f50, #ff6347);
+      color:#fff;
+      font-size:18px;
       font-weight:bold;
-      font-family:sans-serif;
-      box-shadow:0 4px 10px rgba(255,99,71,0.5);
+      box-shadow:0 5px 15px rgba(255,99,71,0.6);
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
       transition: transform 0.2s;
   " onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
-      Caravel SoC
-  </a>
+      🔥 VSD
+  </span>
 
-  <!-- Sky130 Badge -->
-  <a href="https://skywater-pdk.readthedocs.io/" target="_blank" style="
-      text-decoration:none;
-      display:inline-block;
-      padding:10px 20px;
-      border-radius:12px;
-      background: linear-gradient(90deg, #28A745, #218838);
-      color:white;
+  <!-- IIT Gandhinagar Badge -->
+  <span style="
+      padding:12px 22px;
+      border-radius:20px;
+      background: linear-gradient(135deg, #3498db, #2980b9);
+      color:#fff;
+      font-size:18px;
       font-weight:bold;
-      font-family:sans-serif;
-      box-shadow:0 4px 10px rgba(40,167,69,0.5);
+      box-shadow:0 5px 15px rgba(52,152,219,0.6);
       transition: transform 0.2s;
   " onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
-      Sky130 PDK
-  </a>
+      🏛️ IIT Gandhinagar
+  </span>
 
-  <!-- Verification Badge -->
-  <a href="#" target="_blank" style="
-      text-decoration:none;
-      display:inline-block;
-      padding:10px 20px;
-      border-radius:12px;
-      background: linear-gradient(90deg, #9B59B6, #8E44AD);
-      color:white;
+  <!-- RTL & GLS Badge -->
+  <span style="
+      padding:12px 22px;
+      border-radius:20px;
+      background: linear-gradient(135deg, #9b59b6, #8e44ad);
+      color:#fff;
+      font-size:18px;
       font-weight:bold;
-      font-family:sans-serif;
-      box-shadow:0 4px 10px rgba(155,89,182,0.5);
+      box-shadow:0 5px 15px rgba(155,89,182,0.6);
       transition: transform 0.2s;
   " onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
-      RTL & GLS
-  </a>
+      🧪 RTL & GLS
+  </span>
 
-  <!-- Status Badge -->
-  <a href="#" target="_blank" style="
-      text-decoration:none;
-      display:inline-block;
-      padding:10px 20px;
-      border-radius:12px;
-      background: linear-gradient(90deg, #00D084, #00B367);
-      color:white;
+  <!-- Day 1 Badge -->
+  <span style="
+      padding:12px 22px;
+      border-radius:20px;
+      background: linear-gradient(135deg, #2ecc71, #27ae60);
+      color:#fff;
+      font-size:18px;
       font-weight:bold;
-      font-family:sans-serif;
-      box-shadow:0 4px 10px rgba(0,208,132,0.5);
+      box-shadow:0 5px 15px rgba(46,204,113,0.6);
       transition: transform 0.2s;
   " onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
-      Status: 100%
-  </a>
+      📅 Day 1
+  </span>
 
 </div>
 
