@@ -1,6 +1,6 @@
 # Day -1 : Caravel SoC HKSPI Verification
 
-<div align="center" style="display:flex; gap:15px; flex-wrap:wrap; justify-content:center; margin-top:20px;">
+<div align="center" style="display:flex; gap:20px; justify-content:center; margin-top:20px; flex-wrap: nowrap;">
 
   <!-- VSD Badge -->
   <span style="
@@ -13,6 +13,7 @@
       box-shadow:0 5px 15px rgba(255,99,71,0.6);
       text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
       transition: transform 0.2s;
+      cursor: default;
   " onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
       🔥 VSD
   </span>
@@ -27,6 +28,7 @@
       font-weight:bold;
       box-shadow:0 5px 15px rgba(52,152,219,0.6);
       transition: transform 0.2s;
+      cursor: default;
   " onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
       🏛️ IIT Gandhinagar
   </span>
@@ -41,6 +43,7 @@
       font-weight:bold;
       box-shadow:0 5px 15px rgba(155,89,182,0.6);
       transition: transform 0.2s;
+      cursor: default;
   " onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
       🧪 RTL & GLS
   </span>
@@ -55,11 +58,13 @@
       font-weight:bold;
       box-shadow:0 5px 15px rgba(46,204,113,0.6);
       transition: transform 0.2s;
+      cursor: default;
   " onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
       📅 Day 1
   </span>
 
 </div>
+
 
 ---
 - This document explains how I set up, debugged, and successfully ran RTL and Gate-Level Simulations (GLS) for the HK-SPI test inside the Caravel SoC.
