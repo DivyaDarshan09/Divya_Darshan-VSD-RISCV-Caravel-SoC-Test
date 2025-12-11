@@ -9,7 +9,7 @@
 
   <!-- IIT Gandhinagar Badge -->
   <a href="#" target="_blank" style="text-decoration:none;">
-    <img src="https://img.shields.io/badge/IIT%20Gandhinagar-Institute%20of%20Excellence-1e90ff?style=for-the-badge&logoColor=white" alt="IIT Gandhinagar Badge">
+    <img src="https://img.shields.io/badge/IIT%20Gandhinagar-Institute-1e90ff?style=for-the-badge&logoColor=white" alt="IIT Gandhinagar Badge">
   </a>
 
   <!-- RTL & GLS Badge -->
@@ -19,7 +19,7 @@
 
   <!-- Day 1 Badge -->
   <a href="#" target="_blank" style="text-decoration:none;">
-    <img src="https://img.shields.io/badge/Day%201-Introduction-2ecc71?style=for-the-badge&logoColor=white" alt="Day 1 Badge">
+    <img src="https://img.shields.io/badge/Day%201-Task-2ecc71?style=for-the-badge&logoColor=white" alt="Day 1 Badge">
   </a>
 
 </div>
