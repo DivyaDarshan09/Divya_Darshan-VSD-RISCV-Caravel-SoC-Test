@@ -1,4 +1,24 @@
-# Day -1 : Caravel SoC HKSPI Verification
+# 🧨 Day -1 : Caravel SoC HKSPI Verification
+
+<div align="center" style="margin-top:20px;">
+  <span style="
+      display:inline-block;
+      padding:14px 28px;
+      border-radius:25px;
+      background: linear-gradient(135deg, #ff6b35, #ff3e2d);
+      color:#fff;
+      font-size:20px;
+      font-weight:bold;
+      font-family:sans-serif;
+      box-shadow:0 6px 18px rgba(255,62,45,0.6);
+      text-align:center;
+      transition: transform 0.2s;
+      cursor: default;
+  " onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+      🧩 Chip RISC-V
+  </span>
+</div>
+
 
 <div align="center">
 
