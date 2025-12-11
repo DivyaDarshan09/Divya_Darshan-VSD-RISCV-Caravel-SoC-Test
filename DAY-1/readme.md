@@ -1,57 +1,71 @@
 # Day -1 : Caravel SoC HKSPI Verification
-<div align="center" style="display:flex;gap:15px;flex-wrap:wrap;justify-content:center;">
-  <span style="
-      padding:12px 22px;
-      border-radius:20px;
-      background: linear-gradient(135deg, #ff416c, #ff4b2b);
-      color:#fff;
-      font-size:18px;
-      font-weight:bold;
-      box-shadow:0 5px 15px rgba(255,75,43,0.6);
-      text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
-      transition: transform 0.2s;
-  " onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
-      🔥 VSD – IIT Gandhinagar
-  </span>
 
-  <span style="
-      padding:12px 22px;
-      border-radius:20px;
-      background: linear-gradient(135deg, #9b59b6, #8e44ad);
-      color:#fff;
-      font-size:18px;
-      font-weight:bold;
-      box-shadow:0 5px 15px rgba(155,89,182,0.6);
-      transition: transform 0.2s;
-  " onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
-      ⚡ Caravel SoC
-  </span>
+<div align="center" style="display:flex; flex-wrap:wrap; gap:12px; justify-content:center;">
 
-  <span style="
-      padding:12px 22px;
-      border-radius:20px;
-      background: linear-gradient(135deg, #2ecc71, #27ae60);
-      color:#fff;
-      font-size:18px;
+  <!-- Caravel Badge -->
+  <a href="https://caravel-harness.readthedocs.io/" target="_blank" style="
+      text-decoration:none;
+      display:inline-block;
+      padding:10px 20px;
+      border-radius:12px;
+      background: linear-gradient(90deg, #FF7F50, #FF6347);
+      color:white;
       font-weight:bold;
-      box-shadow:0 5px 15px rgba(46,204,113,0.6);
+      font-family:sans-serif;
+      box-shadow:0 4px 10px rgba(255,99,71,0.5);
       transition: transform 0.2s;
   " onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
-      🧪 RTL & GLS Simulation
-  </span>
+      Caravel SoC
+  </a>
 
-  <span style="
-      padding:12px 22px;
-      border-radius:20px;
-      background: linear-gradient(135deg, #f1c40f, #f39c12);
-      color:#fff;
-      font-size:18px;
+  <!-- Sky130 Badge -->
+  <a href="https://skywater-pdk.readthedocs.io/" target="_blank" style="
+      text-decoration:none;
+      display:inline-block;
+      padding:10px 20px;
+      border-radius:12px;
+      background: linear-gradient(90deg, #28A745, #218838);
+      color:white;
       font-weight:bold;
-      box-shadow:0 5px 15px rgba(241,196,15,0.6);
+      font-family:sans-serif;
+      box-shadow:0 4px 10px rgba(40,167,69,0.5);
       transition: transform 0.2s;
   " onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
-      📅 Day 1
-  </span>
+      Sky130 PDK
+  </a>
+
+  <!-- Verification Badge -->
+  <a href="#" target="_blank" style="
+      text-decoration:none;
+      display:inline-block;
+      padding:10px 20px;
+      border-radius:12px;
+      background: linear-gradient(90deg, #9B59B6, #8E44AD);
+      color:white;
+      font-weight:bold;
+      font-family:sans-serif;
+      box-shadow:0 4px 10px rgba(155,89,182,0.5);
+      transition: transform 0.2s;
+  " onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+      RTL & GLS
+  </a>
+
+  <!-- Status Badge -->
+  <a href="#" target="_blank" style="
+      text-decoration:none;
+      display:inline-block;
+      padding:10px 20px;
+      border-radius:12px;
+      background: linear-gradient(90deg, #00D084, #00B367);
+      color:white;
+      font-weight:bold;
+      font-family:sans-serif;
+      box-shadow:0 4px 10px rgba(0,208,132,0.5);
+      transition: transform 0.2s;
+  " onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+      Status: 100%
+  </a>
+
 </div>
 
 ---
