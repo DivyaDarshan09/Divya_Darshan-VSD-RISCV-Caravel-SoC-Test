@@ -28,7 +28,6 @@
 
 - This document explains how I set up, debugged, and successfully ran RTL and Gate-Level Simulations (GLS) for the HK-SPI test inside the Caravel SoC.
 - All the steps, errors, fixes, and configuration changes mentioned here reflect what I actually encountered and solved during the project.
-- This documents everything step by step, because this setup is notoriously tricky, and the official documentation does not clearly explain the complete flow.
 ---
 
 ## Objective
